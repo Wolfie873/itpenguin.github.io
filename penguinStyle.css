@@ -7,39 +7,83 @@ Ice: #E9EEF4
 Water: #C0D4DB
 */
 * {
-    /*border: 1px solid black;*/
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue',
-        sans-serif;
-    font-size: 14px;
+  /*border: 1px solid black;*/
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+body{
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #C0C2C4;
 }
 .selector-for-some-widget {
-    box-sizing: content-box;
+  box-sizing: content-box;
+}
+a:link{
+  color: #E9EEF4;
+}
+a:visited{
+  color: #E9EEF4;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: red;
+}
+img{
+  width: fit-content;
+  height: fit-content;
+  padding: 2px;
+  margin: 2px;
+}
+.navbar{
+  background-color: #0E0E0E;
+}
+nav{
+  background-color: #0E0E0E;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+#topHome{
+  padding-left: 10em;
+}
+#topProjects{
+  padding-left: 4em;
+}
+#topServices{
+  padding-left: 4em;
+}
+#topContact{
+  padding-left: 9em;
 }
 .aboutMeListItem {
-    list-style-type: none;
-    margin: 10px 0px;
+  list-style-type: none;
+  margin: 10px 0px;
 }
 #aboutMeList {
-    padding: 0px 10px;
-    margin: 0px 5px;
+  padding: 0px 10px;
+  margin: 0px 5px;
 }
 #homeLabList {
-    margin-top: 8px;
-    padding: 5px 0px 5px 10px;
+  margin-top: 8px;
+  padding: 5px 0px 5px 10px;
 }
 .homeLabListItem {
-    list-style: upper-roman;
-    padding-top: 5px;
-    padding-bottom: 3px;
+  list-style: upper-roman;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
 #dockerContainerList {
-    padding: 5px 3px;
+  padding: 5px 3px;
 }
 #windowsServerList {
-    padding: 5px 3px;
+  padding: 5px 3px;
 }
 .dockerContainerListItem {
-    list-style-type: none;
-    word-wrap: break-word;
-    padding: 3px;
+  list-style-type: none;
+  word-wrap: break-word;
+  padding: 3px;
 }
