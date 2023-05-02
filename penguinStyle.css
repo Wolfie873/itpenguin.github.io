@@ -7,62 +7,64 @@ Ice: #E9EEF4
 Water: #C0D4DB
 */
 * {
-  /*border: 1px solid black;*/
-  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
+    /*border: 1px solid black;*/
+    font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
 }
-body{
-  width: 100vw;
-  margin: 0px;
-  padding: 0px;
-  background-color: #E9EEF4;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E9EEF4;
+}
+div {
+    width: 100vw;
 }
 .selector-for-some-widget {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
-a:link{
-  color: #E9EEF4;
+a:link {
+    color: #E9EEF4;
 }
-a:visited{
-  color: #E9EEF4;
+a:visited {
+    color: #E9EEF4;
 }
-a:hover{
-  color: blue;
+a:hover {
+    color: blue;
 }
-a:active{
-  color: red;
+a:active {
+    color: red;
 }
-img{
-  width: fit-content;
-  height: fit-content;
-  padding: 2px;
-  margin: 2px;
+img {
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    margin: 2px;
 }
 .aboutMeListItem {
-  list-style-type: none;
-  margin: 10px 0px;
+    list-style-type: none;
+    margin: 10px 0;
 }
 #aboutMeList {
-  padding: 0px 10px;
-  margin: 0px 5px;
+    padding: 0 10px;
+    margin: 0 5px;
 }
 #homeLabList {
-  margin-top: 8px;
-  padding: 5px 0px 5px 10px;
+    margin-top: 8px;
+    padding: 5px 0 5px 10px;
 }
 .homeLabListItem {
-  list-style: upper-roman;
-  padding-top: 5px;
-  padding-bottom: 3px;
+    list-style: upper-roman;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
 #dockerContainerList {
-  padding: 5px 3px;
+    padding: 5px 3px;
 }
 #windowsServerList {
-  padding: 5px 3px;
+    padding: 5px 3px;
 }
 .dockerContainerListItem {
-  list-style-type: none;
-  word-wrap: break-word;
-  padding: 3px;
+    list-style-type: none;
+    word-wrap: break-word;
+    padding: 3px;
 }
