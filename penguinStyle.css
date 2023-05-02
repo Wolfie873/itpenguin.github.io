@@ -47,23 +47,24 @@ img {
 }
 #aboutMeList {
     list-style-position: inside;
-    text-align: center;
     padding: 0 10px;
     margin: 0 5px;
 }
 #aboutMeList li {
     display: block;
     text-align: center;
+    text-align: center;
     margin: 10px 0;
 }
 #homeLabList {
     list-style-position: inside;
-    text-align: center;
     margin-top: 8px;
     padding: 5px 0 5px 10px;
 }
 #homeLabList li {
     display: block;
+    list-style-type: upper-roman;
+    text-align: center;
     padding-top: 5px;
     padding-bottom: 3px;
 }
@@ -71,13 +72,13 @@ img {
     display: block;
     padding: 5px 3px;
     list-style-position: inside;
-    text-align: center;
 }
 #windowsServerList {
     padding: 5px 3px;
 }
 #dockerContainerList li {
     list-style-type: none;
+    text-align: center;
     word-wrap: break-word;
     padding: 3px;
 }
