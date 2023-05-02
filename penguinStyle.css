@@ -45,30 +45,38 @@ img {
     padding: 2px;
     margin: 2px;
 }
-.aboutMeListItem {
-    list-style-type: none;
-    margin: 10px 0;
-}
 #aboutMeList {
+    list-style-position: inside;
+    text-align: center;
     padding: 0 10px;
     margin: 0 5px;
 }
+#aboutMeList li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
 #homeLabList {
+    list-style-position: inside;
+    text-align: center;
     margin-top: 8px;
     padding: 5px 0 5px 10px;
 }
-.homeLabListItem {
-    list-style: upper-roman;
+#homeLabList li {
+    display: block;
     padding-top: 5px;
     padding-bottom: 3px;
 }
 #dockerContainerList {
+    display: block;
     padding: 5px 3px;
+    list-style-position: inside;
+    text-align: center;
 }
 #windowsServerList {
     padding: 5px 3px;
 }
-.dockerContainerListItem {
+#dockerContainerList li {
     list-style-type: none;
     word-wrap: break-word;
     padding: 3px;
