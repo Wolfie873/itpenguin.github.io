@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E9EEF4;
+    color: #0E0E0E;
     max-width: 100vw;
 }
 #mainRow {
@@ -22,10 +23,10 @@ body {
 }
 #mainContent {
     max-width: 100vw;
-    text-align: center;
+    margin-top: 20px;
 }
 #sidebarLeft {
-    background-color: #0E0E0E;
+    background-color: #C0D4DB;
 }
 a:link {
     color: #E9EEF4;
@@ -47,13 +48,11 @@ img {
 }
 #aboutMeList {
     list-style-position: inside;
-    padding: 0 10px;
-    margin: 0 5px;
+    padding: 10px 5px;
+    margin: 10px 5px;
 }
 #aboutMeList li {
-    display: block;
-    text-align: center;
-    text-align: center;
+    list-style-type: none;
     margin: 10px 0;
 }
 #homeLabList {
@@ -62,14 +61,11 @@ img {
     padding: 5px 0 5px 10px;
 }
 #homeLabList li {
-    display: block;
     list-style-type: upper-roman;
-    text-align: center;
     padding-top: 5px;
     padding-bottom: 3px;
 }
 #dockerContainerList {
-    display: block;
     padding: 5px 3px;
     list-style-position: inside;
 }
@@ -78,7 +74,6 @@ img {
 }
 #dockerContainerList li {
     list-style-type: none;
-    text-align: center;
     word-wrap: break-word;
     padding: 3px;
 }
