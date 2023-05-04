@@ -77,3 +77,28 @@ img {
     word-wrap: break-word;
     padding: 3px;
 }
+.carousel {
+    padding-top: 20px;
+    width: 357px;
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+}
+.carousel ul {
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    height: 50px;
+    padding: 0;
+}
+.carousel ul li {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    float: left;
+    margin-right: 1px;
+    background: #f2f2f2;
+    text-align: center;
+    padding-top: 25px;
+}
